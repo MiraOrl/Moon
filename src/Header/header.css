@@ -1,16 +1,17 @@
-li {
-  font-family: Gilroy;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 19.41px;
-  text-align: left;
-  text-decoration-skip-ink: none;
+header {
+  background-color: rgba(255, 255, 255, 1);
+  padding: 24px 0 24px 0;
 }
 
-header {
-  background-color: #000;
-  max-width: 1200px;
-  margin: 0 auto;
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.rov {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .nav ul {
@@ -18,7 +19,51 @@ header {
   column-gap: 16px;
 }
 
-.logo {
+nav a {
+  color: rgba(58, 56, 69, 1);
+  font-size: 16px;
+  font-weight: 500;
+  font-family: Gilroy;
+  line-height: 19.41px;
+}
+
+.header-link {
+  color: rgba(198, 155, 123, 1);
+  border-bottom: 1px solid rgba(198, 155, 123, 1);
+}
+
+nav a:hover {
+  color: rgba(198, 155, 123, 1);
+  border-bottom: 1px solid rgba(198, 155, 123, 1);
+}
+
+.search {
+  width: 320px;
+  height: 44px;
+  border-radius: 4px;
+  border: 1px solid rgba(229, 229, 229, 1);
+}
+
+::placeholder {
+  font-family: Gilroy;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.8px;
+  color: rgba(166, 166, 168, 1);
+}
+input,
+button {
+  border: none;
+  outline: none;
+}
+
+button {
+  background-color: inherit;
+  padding: 12px;
+}
+
+.user-btn {
   display: flex;
+  gap: 16px;
   align-items: center;
 }
