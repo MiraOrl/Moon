@@ -3,6 +3,8 @@ import "./styles/reset.css";
 import "./styles/common.css";
 // import MainContent from "./MainContext";
 import Header from "./Header/Header";
+import Main from "./Main/Main";
+import Section from "./Section/Section";
 
 // const products = [
 //   {
@@ -59,6 +61,8 @@ function App() {
   return (
     <div>
       <Header />
+      <Main />
+      <Section />
       {/* <MainContent products={products} /> */}
     </div>
   );

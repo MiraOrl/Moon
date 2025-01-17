@@ -16,7 +16,7 @@ header {
 
 .nav ul {
   display: flex;
-  column-gap: 16px;
+  gap: 16px;
 }
 
 nav a {

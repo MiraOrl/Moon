@@ -1,0 +1,49 @@
+.similar-items {
+  background-color: rgb(238, 238, 238);
+  font-family: Gilroy;
+  padding-bottom: 130px;
+}
+
+.descr {
+  padding-top: 130px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.descr-title {
+  color: rgba(58, 56, 69, 1);
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 49px;
+  text-transform: uppercase;
+}
+
+.title {
+  color: rgba(58, 56, 69, 1);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22.05px;
+  padding-top: 16px;
+  padding-left: 16px;
+}
+
+.price {
+  color: rgba(89, 86, 103, 1);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21.83px;
+  margin: 8px;
+  margin-left: 16px;
+}
+
+.scrolling {
+  display: flex;
+  gap: 16px;
+}
+
+.description {
+  background-color: rgba(255, 255, 255, 1);
+  width: 285px;
+  height: 84px;
+  border-radius: 4px;
+}

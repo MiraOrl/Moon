@@ -1,13 +1,13 @@
-// import React from "react";
-// import ProductList from "./ProductList";
+import React from "react";
+import ProductList from "./ProductList";
 
-// function MainContent({ products }) {
-//   return (
-//     <main>
-//       <h2>Best Sellers</h2>
-//       <ProductList products={products} />
-//     </main>
-//   );
-// }
+function MainContent({ products }) {
+  return (
+    <main>
+      <h2>Best Sellers</h2>
+      <ProductList products={products} />
+    </main>
+  );
+}
 
-// export default MainContent;
+export default MainContent;
